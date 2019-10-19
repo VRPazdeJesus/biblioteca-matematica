@@ -4,7 +4,6 @@ def fatorial(numero):
         return 1
     else:
         return numero*fatorial(numero - 1)
-
 #primo
 def primo(numero):
     div = 0
@@ -14,6 +13,6 @@ def primo(numero):
             div = div + 1
         valor = valor + 1
     if div == 2:
-        print('É primo')
+        return True
     else:
-        print('Não é primo')
+        return False
