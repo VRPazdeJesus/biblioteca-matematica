@@ -19,3 +19,6 @@ def primo(numero):
 #par
 def par(numero):
     True if numero%2 == 0 else False
+#potencia
+def potencia_quadrada(numero):
+    return numero**2 

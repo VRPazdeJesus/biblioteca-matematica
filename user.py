@@ -9,3 +9,4 @@ else:
     print("Não é primo")
 #if ternario
 print("par" if m.par(numero) else "ímpar")
+print("Quadrado:", m.potencia_quadrada(numero))
